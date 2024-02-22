@@ -1,0 +1,187 @@
+*{
+    padding: none;
+    margin: none;
+    font-family: sans-serif;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #546E7A;
+}
+
+.container{
+    width: 600px;
+    height: 700px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: #37474F;
+    box-shadow: 1px  10px 20px 1px black;
+}
+
+.title{
+    width: 100%;
+    height: 50px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.turn{
+    width: 100%;
+    height: 40px;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+.turn span{
+    color: white;
+    font-size: 20px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.container h2{
+    color: white;
+    font-weight: 60;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.show{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: none;
+   
+
+
+}
+#showuser1{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    border: none;
+    box-sizing: border-box;
+
+}
+#showuser1 img{
+    width: 100%;
+    height: 100%;
+    border:none;
+}
+
+#showuser2{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    border-left: 2px solid white;
+
+}
+#showuser2 img{
+    width: 100%;
+    height: 100%;
+    border: none !important;
+
+    
+}
+
+
+
+.control{
+    width: 100%;
+    height: 100px;
+    display:flex ;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 40px;
+}
+.control #rock{
+    width: 70px;
+    height: 70px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+    cursor: pointer;
+    transition: 0.2s;
+    
+
+}
+
+.control #rock:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+    
+.control #rock img{
+    position:relative;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    
+}
+
+.control #paper{
+    width: 70px;
+    height: 70px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.control #paper:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.control #paper img{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.control #scissor{
+    width: 70px;
+    height: 70px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.control #scissor:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+
+}
+
+.control #scissor img{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+
+
+

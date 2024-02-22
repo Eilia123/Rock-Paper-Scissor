@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="stayle/style.css">
+</head>
+<body>
+    
+        <div class="container">
+            <div class="title">
+                <h2>rock-paper-scissor</h2>
+            </div>
+            <div class="turn">
+                <span>You</span>
+                <span>sistem</span>
+            </div>
+            <div class="show">
+                <div id="showuser1">
+                    <img id="img_main1">
+                </div>
+                <div id="showuser2">
+                    <img id="img_main2">
+                </div>
+            </div>
+            <div class="control">
+
+                <section id="rock">
+                    <img src="./img/rock.png" onclick="rock() ; check()">                </section>
+                <section id="paper">
+                    <img src="./img/paper.png" onclick="paper() ; check()">
+                </section>
+                <section id="scissor">
+                    <img src="./img/scissor.png" onclick="scissor() ; check()">
+                </section>
+
+
+            </div>
+        </div>
+
+
+        <script src="./JS/app.js"></script>
+</body>
+</html>
